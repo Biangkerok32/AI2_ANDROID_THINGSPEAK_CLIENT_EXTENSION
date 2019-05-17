@@ -2,7 +2,6 @@
 Android client ThingSpeak extension for MIT Application Inventor 2   <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/IconTS.png?raw=true" alt="" >
 
 This extension is intended to easily make use of the Read and Write features of the ThingSpeak cloud service provided by MathWorks in such a manner that programmer is able to transparently make use of the service without having to deal with much details of the implementation in the code side. With the App - also attached - you can easily check the extension working on a friendly interface:
- &nbsp;&nbsp;&nbsp;
  
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/AppRunning.png" alt="" width="225" height="425">
 
