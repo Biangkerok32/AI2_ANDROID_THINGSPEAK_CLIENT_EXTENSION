@@ -27,7 +27,7 @@ Below, a snapshot of the components:
 
 Here, a snippet showing how much of the boring coding task can be avoided by customer, once it is embedded on the extension itself:
 
-<img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Snippet.png?raw=true" alt="" width="825" height="400">
+<img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Snippet.png?raw=true" alt="" width="1200" height="450">
 
 Feel free to make experiments and give feedback.
 
