@@ -28,5 +28,6 @@ Here, a snippet showing how much of the boring coding task can be avoided by cus
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Snippet.png?raw=true" alt="" width="1200" height="450">
 
+A brief description of each field on the given Demo program, you can refer to  [this](https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/doc/usage.txt) document.
 Feel free to make experiments and give feedback.
 
