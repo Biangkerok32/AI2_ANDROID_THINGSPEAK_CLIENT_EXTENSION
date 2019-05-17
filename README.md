@@ -11,7 +11,7 @@ Essentially ThingSpeak is a Web server on which data is read and written via GET
 
 All you have to do is subscribe to the ThingSpeak website, create a channel, and take note of the following data automatically generated:
 
-<img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/ThingSpeak.png" alt="" width="225" height="375">
+<img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/ThingSpeak.png" alt="" width="225" height="350">
 
 It is important to note that all data sent and received are in the ASCII format at the URL body, which means that if one wish provide extra security, it should be considered any kind of cyphering or even cryptography in order to atleast detect whether data was maliciously corrupted or not. Another poit to remark is that parsing was performed without using any JSon library, which means that if on the one hand the structural integrity of the JSON format is not checked out, on the other hand it means that tasks are performed lightweight, not wasting core processing if application require update realtime.
 
