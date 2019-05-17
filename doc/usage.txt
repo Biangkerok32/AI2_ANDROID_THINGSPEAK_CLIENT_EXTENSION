@@ -1,0 +1,17 @@
+Usage:
+======
+
+    Parameters to Fill:
+    -------------------
+          • Channel   : A number containing 6 or 7 decimal digits which is the ID of the channel
+          • ReadKey   : The alphanumerical key provided by ThingSpeak to read the channel you have just created
+          • WriteKey  : The alphanumerical key provided by ThingSpeak to write at the channel you have just created
+          • Field     : One of the 8 available at each channel
+          • Value (w) : The value (atually, a string) to be stored at the cloud service
+          • Security  : The mode you selected to grant access to the channel (public/ private)
+
+    Returned parameters:
+    --------------------
+          • TimeStamp : Date-Time of the last value updated to cloud server
+          • Value (r) : Value got from cloud server (Read:Field content / Write:Opperation succeeded)
+          • Status    : Just to trace some inner status of the component during execution
