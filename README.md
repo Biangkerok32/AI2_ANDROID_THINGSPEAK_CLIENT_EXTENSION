@@ -10,7 +10,7 @@ Essentially ThingSpeak is a Web server on which data is read and written via `GE
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/JSonFormatter.png" alt="" width="750" height="375">
 
-All you have to do is subscribe to the ThingSpeak website, create a channel, and take note of the following data automatically generated, namely `READKEY`, `WRITEKEY` and `CANNEL ID`:
+The first step to do is subscribe to the [Thingspeak](https://pages.github.com/) website, create a channel, and take note of the following data automatically generated, namely `READKEY`, `WRITEKEY` and `CANNEL ID`, highlighted bellow:
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/ThingSpeak.png" alt="" width="225" height="325">
 
