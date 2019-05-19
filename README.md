@@ -14,7 +14,7 @@ All you have to do is subscribe to the ThingSpeak website, create a channel, and
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/ThingSpeak.png" alt="" width="225" height="350">
 
-If you are not going to use multiple fields simultaneously, you can configure the channel to use only 1 field, which would also reduce the size of the JSON structure, e.g selecting just 1 of the 8 fields avaliable: 
+If you are not going to use multiple fields simultaneously, you can configure the channel to use only 1 of the 8 fields available, which would also reduce the size of the JSON structure: 
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Channel.png" alt="" width="625" height="300">
 
