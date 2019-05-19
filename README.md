@@ -32,7 +32,7 @@ Below, a snapshot of the components:
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Components.png?raw=true" alt="" width="325" height="500">
 
-Here, a snippet showing how much of the boring coding task can be avoided by customer, once it is embedded on the extension itself:
+Here, a snippet showing how much of the boring Java coding task can be avoided by customer, once it is embedded on the extension itself:
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Snippet.png?raw=true" alt="" width="1200" height="450">
 
