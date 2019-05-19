@@ -6,11 +6,11 @@ This extension is intended to easily make use of the Read and Write features of 
  
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/AppRunning.png" alt="" width="225" height="425">
 
-Essentially ThingSpeak is a Web server on which data is read and written via GET commands of the Http protocol. All replies come on the JSon format in raw text with no formatting, which means that no LF or CR characters are added, as can be seen on the left side of the following picture:
+Essentially ThingSpeak is a Web server on which data is read and written via `GET` commands of the `HTTP` protocol. All replies come on the `JSON` format in raw text with no formatting, which means that no LF or CR characters are added, as can be seen on the left side of the following picture:
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/JSonFormatter.png" alt="" width="750" height="375">
 
-All you have to do is subscribe to the ThingSpeak website, create a channel, and take note of the following data automatically generated, namely READKEY, WRITEKEY and CANNEL ID:
+All you have to do is subscribe to the ThingSpeak website, create a channel, and take note of the following data automatically generated, namely `READKEY`, `WRITEKEY` and `CANNEL ID`:
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/ThingSpeak.png" alt="" width="225" height="325">
 
@@ -18,9 +18,9 @@ If you are not going to use multiple fields simultaneously, you can configure th
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Channel.png" alt="" width="625" height="300">
 
-It is important to note that all data sent and received are in the ASCII format at the URL body, which means that if one wish provide extra security, it should be considered any kind of cyphering or even cryptography in order to atleast detect whether data was maliciously corrupted or not. Another point to remark is that the parsing was performed without using any JSon library, which means that if on one hand the structural integrity of the JSON format is not checked out, on the other hand it means that tasks are performed lightweight, not wasting core processing, particularly useful if application require to update the screen in realtime.
+It is important to note that all data sent and received are in the `ASCII` format at the URL body, which means that if one wish provide extra security, it should be considered any kind of cyphering or even cryptography in order to atleast detect whether data was maliciously corrupted or not. Another point to remark is that the parsing was performed without using any JSon library, which means that if on one hand the structural integrity of the JSON format is not checked out, on the other hand it means that tasks are performed lightweight, not wasting core processing, particularly useful if application require to update the screen in realtime.
 
-> *Note: With the Free licensing option, upload to the server (write) cannot be made within an interval time smaller than *15s* otherwise client application will receive a negative response.*
+> *Note: With the `Free` licensing option, upload to the server (write) cannot be made within an interval time smaller than **15s** otherwise client application will receive a negative response.*
 
 Here's an overview of the "source code" or rather, "source blocs" of the above demo application.
 
