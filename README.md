@@ -14,6 +14,10 @@ All you have to do is subscribe to the ThingSpeak website, create a channel, and
 
 <img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/ThingSpeak.png" alt="" width="225" height="350">
 
+If you are not going to use multiple fields simultaneously, you can configure the channel to use only 1 field, which would also reduce the size of the JSON structure, e.g selecting just 1 of the 8 fields avaliable: 
+
+<img src="https://github.com/aluis-rcastro/AI2_ANDROID_THINGSPEAK_CLIENT_EXTENSION/blob/master/res/Channel.png" alt="" width="625" height="300">
+
 It is important to note that all data sent and received are in the ASCII format at the URL body, which means that if one wish provide extra security, it should be considered any kind of cyphering or even cryptography in order to atleast detect whether data was maliciously corrupted or not. Another poit to remark is that parsing was performed without using any JSon library, which means that if on the one hand the structural integrity of the JSON format is not checked out, on the other hand it means that tasks are performed lightweight, not wasting core processing if application require update realtime.
 
 Here's an overview of the "source code" or rather, "source blocs" of the above demo application.
